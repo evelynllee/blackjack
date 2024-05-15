@@ -1,0 +1,21 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+h1{
+    color: red;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+#start-el{
+    text-align: center;
+    color: #016f32;
+    background: goldenrod;
+}
