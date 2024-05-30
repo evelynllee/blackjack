@@ -5,17 +5,32 @@
     <body>
         <h1>BlackJack</h1>
         <p id="message-el">Press start to play</p>
-        <p id="hitCard-el" class="userCard">New Card: </p>
         <button id="start-el">Start</button>
-        <p id="firstCard-el" class="userCard"></p>
-        <p id="secondCard-el" class="userCard"></p>
-        <p id="sum-el" class="userCard">Sum: </p>
-        <button id="stand-el" disabled>Stand</button>
-        <button id="hit-el" disabled>Hit</button>
-        <p id="dealersFirst-el" class="dealerCard"></p>
-        <p id="dealersSecond-el" class="dealerCard"></p>
-        <p id="dealersHit-el" class="dealerCard"></p>
-        <p id="dealersSum-el" class="dealerCard">Dealer's sum: </p>
+
+        <p id="title-el" class="userSum"> Your cards </p>
+    
+
+        <div class="userCardsContainer">
+            <p id="firstCard-el" class="userCard"></p>
+            <p id="secondCard-el" class="userCard"></p>
+            <p id="hitCard-el" class="userCard">New Card: </p>
+        </div>
+
+        <p id="sum-el" class="userSum">Sum: </p>
+
+        <div class="button-container">
+            <button id="stand-el" disabled>Stand</button>
+            <button id="hit-el" disabled>Hit</button>
+        </div>
+
+        <div class="dealerCardsContainer">
+            <p id="dealersFirst-el" class="dealerCard"></p>
+            <p id="dealersSecond-el" class="dealerCard"></p>
+            <p id="dealersHit-el" class="dealerCard">New Card: </p>
+        </div>
+
+        <p id="dealersSum-el" class="dealerSum">Dealer's sum: </p>
+
         <script src="index.js"></script>
     </body>
 </html>
